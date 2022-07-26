@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ezU9zphz9WoK6EMrkHWwRbdjgSaZ+wd6sL/LSO24QoLuioLmr6+Of8Sd/N43DdCKY0GY+Sk/LRJJBjBSLCqpzQ==",
+  "dgSpecHash": "9AhbLK18upG1pv1krFXwKO/OFN32JtLws5W5DAMwy+kgMCcelW3tq1ql3cWSfwrOCD9D7eQyMrsRn/4hRK3S9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\athomas\\source\\repos\\ConsoleApp2\\ConsoleApp2\\fractal.csproj",
+  "projectFilePath": "C:\\Users\\athomas\\source\\repos\\fractal\\fractal\\fractal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

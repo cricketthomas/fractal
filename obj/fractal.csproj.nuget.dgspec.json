@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\athomas\\source\\repos\\ConsoleApp2\\ConsoleApp2\\fractal.csproj": {}
+    "C:\\Users\\athomas\\source\\repos\\fractal\\fractal\\fractal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\athomas\\source\\repos\\ConsoleApp2\\ConsoleApp2\\fractal.csproj": {
+    "C:\\Users\\athomas\\source\\repos\\fractal\\fractal\\fractal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\athomas\\source\\repos\\ConsoleApp2\\ConsoleApp2\\fractal.csproj",
+        "projectUniqueName": "C:\\Users\\athomas\\source\\repos\\fractal\\fractal\\fractal.csproj",
         "projectName": "fractal",
-        "projectPath": "C:\\Users\\athomas\\source\\repos\\ConsoleApp2\\ConsoleApp2\\fractal.csproj",
+        "projectPath": "C:\\Users\\athomas\\source\\repos\\fractal\\fractal\\fractal.csproj",
         "packagesPath": "C:\\Users\\athomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\athomas\\source\\repos\\ConsoleApp2\\ConsoleApp2\\obj\\",
+        "outputPath": "C:\\Users\\athomas\\source\\repos\\fractal\\fractal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

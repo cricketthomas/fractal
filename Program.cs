@@ -2,24 +2,64 @@
 using System.Numerics;
 
 
+var size = 80 * 25;
+var z = new Complex(0, 0);
+
+/// linear line thing
+//double line = 0;
+//for (int y = 0; y < 25; y++)
+//{
+//    for (int x = 0; x < 80; x++)
+//    {
+//        if (x == Math.Round(line))
+//        {
+//            Console.Write("/");
+//        }
+//        else
+//        {
+//            Console.Write("x");
+//        }
+//        line += .04;
+//    }
+
+//    line += .0125;
+//    Console.WriteLine();
+//}
+
+///80x20cube
+//for (int y = 0; y < 25; y++)
+//{
+//    for (int x = 0; x < 80; x++)
+//    {
+//        Console.Write("x");
+//    }
+//    Console.WriteLine();
+//}
 
 
-var coords = new List<Complex>() { };
 
-var c = 2;
-var range = Enumerable.Range(0, 100);
-var previousZval = 0;
-
-
-foreach(var num in range)
+void draw(Complex c)
 {
-    var z = Math.Sqrt(num) + c;
-    if(previousZval > 0)
-        coords.Add(z);
-    Console.WriteLine(z);
+    for (int i = 0; i < 80; i++)
+    {
+        z = z * z + c;
 
-
-
+        if (z.Magnitude < .001)
+        {
+            Console.Write("X");
+            return;
+        }
+    }
+    Console.Write(" ");
 }
 
-Console.ReadKey();
+
+
+
+
+for (int y = 0; y < 25; y++)
+{
+    draw(y);
+
+    Console.WriteLine();
+}
